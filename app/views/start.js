@@ -6,7 +6,8 @@ var auth = require('../config');
 var cookie = require('../cookie');
 
 // Set scope
-auth.scope = cookie.get('scope') || 'repo';
+//auth.scope = cookie.get('scope') || 'repo';
+auth.scope = cookie.get('scope') || 'public_repo';
 
 module.exports = Backbone.View.extend({
   id: 'start',

@@ -7,4 +7,5 @@ oauth.json
 test/lib
 _site
 site
+__staticweb
 npm-debug.log
